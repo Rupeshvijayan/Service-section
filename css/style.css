@@ -1,0 +1,90 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+
+.service_container{
+	width:90%;
+	margin:auto;
+}
+
+.service_title{
+	padding:50px 0 30px;
+}
+
+.service_title span{
+	font-family: 'Poppins', sans-serif;
+	color:#aaaaaa;
+	font-weight:bold;
+}
+
+.service_title hr{
+	display:inline-block;
+	width:7%;
+	padding:1px 0;
+	border:none;
+	margin:5px;
+	background-color:#ffc451;
+}	
+
+.service_title h1{
+	font-family: 'Roboto', sans-serif;
+	font-weight:bold;
+	font-size:2.5rem;
+}
+
+.service_row{
+	display:flex;
+	flex-wrap:wrap;
+}
+
+.service_column{
+	width:33.33%;
+	padding:10px;
+}
+
+.service_card{
+	border:1px solid #ebebeb;
+	text-align:center;
+	
+	transition:all 0.3s ease-in-out;
+}
+
+.service_card:hover{
+	box-shadow:0 0 15px #ebebeb;
+	
+	transform:translateY(-5px);
+}	
+
+.service_icon{
+	background-color:#ffc451;
+	padding:12px;
+	text-align:center;
+	border-radius:5px;
+	font-size:1.5rem;
+	width:15%;
+	margin:auto;
+	margin-top:50px;
+}
+
+.service_content{
+	padding:30px 20px;
+}	
+.service_content h2{
+	font-family: 'Raleway', sans-serif;
+	padding-bottom:25px;
+	
+	transition:all 0.3s linear;
+}
+
+.service_content p{
+	font-family: 'Poppins', sans-serif;
+	padding-bottom:50px;
+}
+
+.service_content h2:hover{
+	color:#ffc451;
+}	
+	
+	
